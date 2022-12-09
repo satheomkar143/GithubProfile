@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+#main{
+  margin: 20px auto;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  background: linear-gradient(to right, #605c3c, #3c3b3f);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+input{
+  background-color: rgb(67, 5, 125);
+  border: none;
+  border-radius: 10px;
+  padding: 1rem;
+  margin-top: 50px;
+  margin-bottom: 2rem;
+  outline: none;
+  font-family: inherit;
+  font-size: 1.5rem;
+  font-weight: 600;
+  text-align: center;
+  box-shadow: 0.25rem 0.25rem 0.5rem rgb(35, 1, 38);
+}
+
+
+
+.card{
+  background: linear-gradient(to right, rgb(8, 81, 96), rgb(12, 63, 121), rgb(5, 102, 163));
+  display: flex;
+  max-width: 800px;
+  padding: 3rem;
+  border-radius: 20px;
+  box-shadow: 0.25rem 0.25rem 0.5rem rgb(35, 1, 38), 0.5rem 0.5rem 1rem rgb(47, 1, 4);
+}
+
+/* .img-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+} */
+
+.avtar{
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  box-shadow:0 0 10px 5px rgb(6, 44, 61);
+}
+
+.user-info{
+  color: #eee;
+  margin-left: 3rem;
+  max-width: 100%;
+  /* position: absolute; */
+}
+
+.user-info h2{
+  color: #440101;
+  font-size: 2rem;
+  font-family: cursive, sans-serif;
+  text-shadow: 1px 1px 5px yellow;
+}
+
+.user-info p{
+  margin: 1rem 0;
+  text-align: justify;
+}
+
+.user-info ul{
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  max-width: 600px;
+}
+
+.user-info ul li{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right:  2rem;
+}
+
+.user-info ul li strong{
+  font-size: 0.8rem;
+  color: rgb(138, 139, 141);
+}
+
+#repos{
+  background-color: rgba(0, 0, 0, 0.4);
+  border-radius: 10px;
+  box-shadow: 3px 3px 5px rgb(0, 0, 0);
+  padding: 0.5rem;
+  margin-top: 1rem;
+}
+
+.repo{
+  background: #2a2a72;
+  border-radius: 5px; 
+  color: rgb(199, 174, 174);
+  margin: 0.3rem;
+  margin-left: 0;
+  display:inline-block;
+  padding: 0.2rem 0.5rem;
+  text-decoration: none;
+  font-size: 0.8rem;
+}
